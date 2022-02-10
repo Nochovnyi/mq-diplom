@@ -979,7 +979,7 @@ a {
 
   .menu-logo-container {
     max-width: 100%;
-    padding: 51px 34px;
+    padding: 51px 33px;
   }
 
   .main-link {
@@ -994,18 +994,36 @@ a {
     flex-wrap: wrap;
   }
 
+  .main-trend-text {
+    padding: 33px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
   .main-trend-news {
     width: calc(50% - 5px);
+    padding-left: 19px;
+    padding-right: 19px;
   }
+
 
   .general-container {
     width: calc(100% - 36px);
-    padding: 0 30px;
-    min-width: 768px;
-    max-width: 1200px;
     gap: 36px;
     justify-content: flex-start;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aside-container {
+    width: 100%;
+    max-width: 272px;
+  }
+
+  .main-news-container {
+    width: 100%;
   }
 
   .product-general-container {
@@ -1019,45 +1037,39 @@ a {
 
   .product-container {
     flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 100%;
-    min-width: 652px;
-    max-width: 1200px;
+    justify-content: space-between;
+    width: calc(100% - 25px);
+    margin-left: auto;
+    margin-right: auto;
+    gap: 25px;
   }
 
   .product-text-container {
     flex-grow: 1;
-    width: calc(100% - 66px);
-    min-width: 291px;
+    width: 100%;
     outline-offset: 20px;
-    max-width: 1200px;
   }
 
   .img-product-container {
     width: 100%;
-    min-width: 290px;
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .card-product {
     flex-grow: 0;
-    min-width: 291px;
-    width: calc(50% - 66px);
+    width: calc(50% - 25px);
     max-width: 1200px;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
   }
 
   .main-container {
     width: 100%;
-    min-width: 390px;
-    justify-content: flex-start;
-    max-width: 1200px;
   }
 
   .main-news {
     flex-direction: column;
+    width: 100%;
   }
 
    .main-trend-heading, .product-heading  {
@@ -1073,15 +1085,18 @@ a {
     font-size: 14px;
   }
 
-  .main-img, .main-text {
+  .main-img-container {
+    margin: 0;
+  }
+
+  .main-img, .main-text, .product-img {
     width: 100%;
-    max-width: 1200px;
-    min-width: 390px;
   }
 
 
-.footer, .product-img {
+.footer {
   width: 100%;
+  padding: 0 34px;
 }
 }
 
@@ -1178,32 +1193,24 @@ a {
     min-width: 360px;
     max-width: 640px;
     padding: 0 15px;
+    margin-top: 45px;
+    gap: 44px;
+    margin-bottom: 44px;
   }
 
   .main-container {
     width: 100%;
-    min-width: 360px;
-    max-width: 640px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .main-news-container {
     width: 100%;
-    min-width: 360px;
-    max-width: 640px;
   }
 
   .main-news {
     flex-direction: column;
     width: 100%;
-    min-width: 360px;
-    max-width: 640px;
-  }
-
-  .main-text {
-    width: 100%;
-    max-width: 330px;
   }
 
   .product-general-container {
@@ -1242,42 +1249,21 @@ a {
   }
 
   .aside-container {
-    width: 330px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
+    gap: 44px;
+    
   }
 
-  .submit-button, .email, .main-img, .img-logo, .main-trend-container, .main-trend-news {
+  .submit-button, .email, .main-img, .img-logo, .main-trend-container, .main-trend-news, .main-img-container, .main-text {
     width: 100%;
+  }
+
+  .main-img-container {
+    margin-bottom: 15px;
   }
 
   .serch {
     flex-grow: 3;
-  }
-
-}
-
-@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
-  .main-trend-news-container {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-  }
-
-  .main-trend-news {
-    width: calc(25% - 5px);
-  }
-
-}
-
-@media (min-width: 360px) and (max-width: 640px) and (orientation: landscape) {
-  .main-trend-news-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .main-trend-news {
-    width: calc(50% - 5px);
   }
 
 }
