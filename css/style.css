@@ -1100,7 +1100,7 @@ a {
 }
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 640px) {
   .popup-container {
     padding: 0 15px;
   }
@@ -1123,14 +1123,14 @@ a {
   .header {
     width: 100%;
     max-width: 640px;
-    min-width: 360px;
+    min-width: 200px;
     background-image: url("../images/banner-mobile.jpg");
     padding-bottom: 220px;
   }
 
   .menu-logo-container {
     width: 100%;
-    min-width: 330px;
+    min-width: 200px;
     max-width: 640px;
     flex-direction: column;
     gap: 180px;
@@ -1158,7 +1158,8 @@ a {
     order: 2;
     margin-right: auto;
     margin-left: auto;
-    width: 268px;
+    width: 100%;
+    padding: 0 15px;
   }
 
   .menu {
@@ -1190,7 +1191,7 @@ a {
   .general-container {
     flex-direction: column;
     width: 100%;
-    min-width: 360px;
+    min-width: 320px;
     max-width: 640px;
     padding: 0 15px;
     margin-top: 45px;
@@ -1215,7 +1216,7 @@ a {
 
   .product-general-container {
     width: 100%;
-    min-width: 360px;
+    min-width: 320px;
     max-width: 640px;
     padding: 0 15px;
   }
@@ -1224,13 +1225,13 @@ a {
     flex-direction: column;
     gap: 55px;
     width: 100%;
-    min-width: 330px;
+    min-width: 200px;
     max-width: 640px;
   }
 
   .img-product-container {
     width: 100%;
-    min-width: 280px;
+    min-width: 200px;
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
@@ -1238,7 +1239,7 @@ a {
 
   .product-img, .footer {
     width: 100%;
-    min-width: 280px;
+    min-width: 200px;
     max-width: 640px;
   }
 
