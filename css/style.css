@@ -170,7 +170,6 @@ a {
 
 .popup-textarea-text {
   min-height: 130px;
-  min-width: 328px;
   max-height: 130px;
   max-width: 328px;
   padding: 22px;
@@ -1117,7 +1116,7 @@ a {
   }
 
   .popup-textarea-text {
-    min-width: 280px;
+    width: 100%;
   }
 
   .header {

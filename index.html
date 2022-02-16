@@ -11,36 +11,38 @@
   <div class="popup-container">
     <div class="popup">
       <h2 class="popup-heading">Ваш фидбек</h2>
-      <label class="popup-form-select">
-        <span class="popup-form-hint">Как часто вы заходите на сайт?</span>
-        <select class="popup-select">
-          <option selected class="popup-form-hint popup-option">Почти каждый день</option>
-          <option class="popup-form-hint popup-option">Раз в несколько дней</option>
-          <option class="popup-form-hint popup-option">Раз в несколько недель</option>
-          <option class="popup-form-hint popup-option">Несколько раз в год</option>
-        </select>
-      </label> 
+      <form>
+        <label class="popup-form-select">
+          <span class="popup-form-hint">Как часто вы заходите на сайт?</span>
+          <select class="popup-select">
+            <option selected class="popup-form-hint popup-option">Почти каждый день</option>
+            <option class="popup-form-hint popup-option">Раз в несколько дней</option>
+            <option class="popup-form-hint popup-option">Раз в несколько недель</option>
+            <option class="popup-form-hint popup-option">Несколько раз в год</option>
+          </select>
+        </label> 
 
-      <div class="popup-form-radio-row">
-        <span class="popup-form-hint">Вы подписаны на e-mail рассылку?</span>
-        <div class="popup-form-radio-container">
-          <label class="popup-form-radio">
-            <input type="radio" name="radio-group" class="popup-form-radio-but">
-            <span class="form-radio-text popup-form-hint">Да</span>
-          </label>
-          <label class="popup-form-radio">
-            <input type="radio" name="radio-group" class="popup-form-radio-but">
-            <span class="form-radio-text popup-form-hint">Нет</span>
-          </label>
+        <div class="popup-form-radio-row">
+          <span class="popup-form-hint">Вы подписаны на e-mail рассылку?</span>
+          <div class="popup-form-radio-container">
+            <label class="popup-form-radio">
+              <input type="radio" name="radio-group" class="popup-form-radio-but" required>
+              <span class="form-radio-text popup-form-hint">Да</span>
+            </label>
+            <label class="popup-form-radio">
+              <input type="radio" name="radio-group" class="popup-form-radio-but" required>
+              <span class="form-radio-text popup-form-hint">Нет</span>
+            </label>
+          </div>
         </div>
-      </div>
 
-      <label class="popup-form-textarea">
-        <span class="popup-form-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-        <textarea class="popup-textarea-text" placeholder="Может, больше рецептов?"></textarea>
-      </label>
+        <label class="popup-form-textarea">
+          <span class="popup-form-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+          <textarea class="popup-textarea-text" placeholder="Может, больше рецептов?" required></textarea>
+        </label>
 
-      <button type="submit" class="popup-button">Отправить</button>
+        <button type="submit" class="popup-button">Отправить</button>
+      </form>
     </div>
   </div>
 	<header class="header">
